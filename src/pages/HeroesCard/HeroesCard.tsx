@@ -11,7 +11,7 @@ import { BtnToBack } from "@/entities/BtnToBack";
 import { useCheckItemInJson } from "@/shared/hooks/useCheckItemInJson";
 
 // types
-import { IOutletContext, IResCharacte, ICharacte } from "@/shared/types/types";
+import { IOutletContext, IResCharacte, ICharacte } from "@/types";
 
 // styles
 import "./HeroesCard.css";

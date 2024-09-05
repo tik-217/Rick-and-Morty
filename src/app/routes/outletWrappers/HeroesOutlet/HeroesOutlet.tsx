@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 import { useGetRickAM } from "@/shared/api/hooks/useGetRickAM";
 
 // types
-import { ICharacte, IOutletContext, IResCharacte } from "@/shared/types/types";
+import { ICharacte, IOutletContext, IResCharacte } from "@/types";
 
 export function HeroesOutlet() {
   const [nextUrlPage, setNextUrlPage] = useState(1);

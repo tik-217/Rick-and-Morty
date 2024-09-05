@@ -12,7 +12,7 @@ import { findIntersection } from "@/shared/utils/findIntersection";
 import { useScrollView } from "@/shared/hooks/useScrollView";
 
 // types
-import { IEpisode, IOutletContext } from "@/shared/types/types";
+import { IEpisode, IOutletContext } from "@/types";
 
 // styles
 import "./Episodes.css";

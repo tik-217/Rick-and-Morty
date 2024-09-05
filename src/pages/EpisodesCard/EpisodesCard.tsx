@@ -11,7 +11,7 @@ import { BtnToBack } from "@/entities/BtnToBack";
 import { useCheckItemInJson } from "@/shared/hooks/useCheckItemInJson";
 
 // types
-import { IEpisode, IOutletContext, IResEpisode } from "@/shared/types/types";
+import { IEpisode, IOutletContext, IResEpisode } from "@/types";
 
 // styles
 import "./EpisodesCard.css";
