@@ -12,7 +12,7 @@ import {
   IResRickAndMorty,
   IUseGetDataGeneric,
   IUseGetDataParams,
-} from "../../../types";
+} from "../../types/types";
 
 export function useGetRickAM<T extends IUseGetDataGeneric>({
   url,

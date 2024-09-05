@@ -1,5 +1,5 @@
 // types
-import { IUseGetDataGeneric } from "@/types";
+import { IUseGetDataGeneric } from "@/shared/types/types";
 
 export function getUniqueObjects<T extends IUseGetDataGeneric>(objects: T[]) {
   const unique = objects.reduce((accumulator, current) => {
