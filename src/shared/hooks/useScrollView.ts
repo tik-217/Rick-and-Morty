@@ -2,7 +2,7 @@
 import { MutableRefObject, useCallback, useRef } from "react";
 
 // types
-import { IUseScrollView } from "@/types";
+import { IUseScrollView } from "@/shared/types/types";
 
 export function useScrollView({
   setNextUrlPage,

@@ -12,7 +12,7 @@ import { useScrollView } from "@/shared/hooks/useScrollView";
 import { findIntersection } from "@/shared/utils/findIntersection";
 
 // types
-import { IOutletContext, ILocations } from "../../types";
+import { IOutletContext, ILocations } from "../../shared/types/types";
 
 // styles
 import "./Locations.css";

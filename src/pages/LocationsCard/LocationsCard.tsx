@@ -11,7 +11,7 @@ import { BtnToBack } from "@/entities/BtnToBack";
 import { useCheckItemInJson } from "@/shared/hooks/useCheckItemInJson";
 
 // types
-import { IOutletContext, IResLocation, ILocations } from "@/types";
+import { IOutletContext, IResLocation, ILocations } from "@/shared/types/types";
 
 // styles
 import "./LocationsCard.css";

@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Outlet } from "react-router-dom";
 
 // types
-import { ILocations, IOutletContext, IResLocation } from "@/types";
+import { ILocations, IOutletContext, IResLocation } from "@/shared/types/types";
 
 // shared
 import { useGetRickAM } from "@/shared/api/hooks/useGetRickAM";
